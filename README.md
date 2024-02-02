@@ -1,4 +1,4 @@
-# Reverse-Shell
+### Reverse-Shell
 Simple TTY cheat sheet for shell stabilization
 Prevents you from killing your reverse shells and adds proper shell functionality
 
@@ -9,7 +9,7 @@ Prevents you from killing your reverse shells and adds proper shell functionalit
 - Ruby
 - Lua
 
-# TTY Shells
+## TTY Shells
 
 ```
 python -c 'import pty; pty.spawn("/bin/bash")'
@@ -22,8 +22,14 @@ ruby: exec "/bin/sh"
 lua: os.execute('/bin/sh')
 
 ```
-# TTY Shell Stabilization Process
 
+
+
+
+
+
+
+# TTY Shell Stabilization Process
 ```
 Victim
 
